@@ -1,9 +1,9 @@
 {
-  "main": "dist/react-select.cjs.js",
-  "module": "dist/react-select.esm.js",
+  "main": "dist/react-select-slim.cjs.js",
+  "module": "dist/react-select-slim.esm.js",
   "browser": {
-    "./dist/react-select.cjs.js": "./dist/react-select.browser.cjs.js",
-    "./dist/react-select.esm.js": "./dist/react-select.browser.esm.js"
+    "./dist/react-select-slim.cjs.js": "./dist/react-select-slim.browser.cjs.js",
+    "./dist/react-select-slim.esm.js": "./dist/react-select-slim.browser.esm.js"
   },
   "preconstruct": {
     "source": "../src/AsyncCreatable"

@@ -1,14 +1,15 @@
 {
-  "name": "react-select",
+  "name": "react-select-slim",
   "version": "3.0.8",
   "description": "A Select control built with and for ReactJS",
-  "main": "dist/react-select.cjs.js",
-  "module": "dist/react-select.esm.js",
+  "main": "dist/react-select-slim.cjs.js",
+  "module": "dist/react-select-slim.esm.js",
   "sideEffects": false,
   "author": "Jed Watson",
   "license": "MIT",
   "scripts": {
-    "build": "preconstruct build"
+    "build": "preconstruct build",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",
@@ -71,7 +72,7 @@
     ]
   },
   "browser": {
-    "./dist/react-select.cjs.js": "./dist/react-select.browser.cjs.js",
-    "./dist/react-select.esm.js": "./dist/react-select.browser.esm.js"
+    "./dist/react-select-slim.cjs.js": "./dist/react-select-slim.browser.cjs.js",
+    "./dist/react-select-slim.esm.js": "./dist/react-select-slim.browser.esm.js"
   }
 }
